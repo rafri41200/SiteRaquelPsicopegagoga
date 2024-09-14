@@ -1,0 +1,60 @@
+body{
+  background-image: url(../images/galeria-espaco.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section.menu-descktop nav ul li a{
+  color: #115787;
+}
+
+section.artigo1{
+  width: 100%;
+  margin: 200px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4%;
+}
+
+.caixa-artigo{
+  max-width: 800px;
+  height: auto;
+  border-radius: 20px;
+  background-color: #F39A9C;
+  align-items: center;
+  text-align: center;
+}
+
+section.artigo1 .title{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #115787;
+  margin: 15px auto;
+  padding: 0 10px;
+}
+
+section.artigo1 .txt-artigo{
+  padding: 0 4%;
+  margin: 20px auto;
+  color: #ffffff;
+}
+
+.button{
+  margin: 20px auto;
+}
+
+header .btn-menu-mob div{
+  background-color: #115787;
+}
+
+
+@media screen and (max-width: 1083px){
+  .caixa-artigo{
+    height: auto;
+  }
+}
